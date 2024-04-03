@@ -12,6 +12,7 @@ function App() {
         dataSource={employeeData}
         keyExpr="EmployeeID"
         columnHidingEnabled={true}
+        editing={{ allowUpdating: true }}
       >
           <SearchPanel visible={true} /> 
       </DataGrid>
