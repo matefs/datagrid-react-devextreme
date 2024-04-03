@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { DataGrid } from 'devextreme-react/data-grid';
+import {DataGrid, SearchPanel} from 'devextreme-react/data-grid';
 import 'devextreme/dist/css/dx.dark.css';
 import { employeeData } from "./employeeData.js";
 function App() {
@@ -12,7 +12,9 @@ function App() {
         dataSource={employeeData}
         keyExpr="EmployeeID"
         columnHidingEnabled={true}
-      ></DataGrid>
+      >
+          <SearchPanel visible={true} /> 
+      </DataGrid>
     </>
   );
 }
