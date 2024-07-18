@@ -11,3 +11,6 @@ This template provides a minimal setup to get React working in Vite with HMR and
     - [Getting Started with DataGrid](https://js.devexpress.com/React/Documentation/Guide/UI_Components/DataGrid/Getting_Started_with_DataGrid/)
 - **Demonstrações:** Explore demonstrações interativas para ver o DataGrid em ação e experimentar diferentes configurações e temas.
     - [DataGrid Demos](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/MaterialBlueDark/Compact/){
+
+### Try it online: 
+- https://stackblitz.com/github/matefs/datagrid-react-devextreme
