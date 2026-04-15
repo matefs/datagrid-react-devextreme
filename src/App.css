@@ -1,18 +1,92 @@
 #root {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
-.app-container {
+.app-shell {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #e7eaee;
 }
 
 .app-title {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  text-align: left;
+  color: #1f2d3d;
+}
+
+.drawer-menu {
+  height: calc(100vh - 73px);
+  border-right: 1px solid #e7eaee;
+  background-color: #ffffff;
+}
+
+.app-content {
+  padding: 1rem 1.25rem;
+  min-height: calc(100vh - 73px);
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.view-panel {
+  margin-top: 0.75rem;
+  padding: 1rem;
+  border: 1px solid #e3e8ef;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.app-tabs {
+  border: 1px solid #e3e8ef;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 0.25rem;
+}
+
+.app-tabs .dx-tabs-wrapper {
+  gap: 0.25rem;
+}
+
+.app-tabs .dx-tab {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #45576b;
+  transition: all 0.2s ease;
+}
+
+.app-tabs .dx-tab:hover {
+  background-color: #f4f8ff;
+  color: #1f2d3d;
+}
+
+.app-tabs .dx-tab-selected {
+  border-color: #bcd2ee;
+  background-color: #e9f2ff;
+  color: #0f3f7a;
+  font-weight: 600;
+}
+
+.app-tabs .dx-tabs-nav-button {
+  border-radius: 8px;
+}
+
+.home-blank {
+  min-height: 500px;
+  background-color: #ffffff;
+}
+
+.section-title {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2d3d;
 }

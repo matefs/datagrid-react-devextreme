@@ -11,7 +11,6 @@ import {
   Column,
   Button,
 } from 'devextreme-react/data-grid';
-import 'devextreme/dist/css/dx.light.css';
 import { employeeData } from './employeeData';
 import { saveEmployeeGridState, loadEmployeeGridState } from './gridStateStorage';
 
